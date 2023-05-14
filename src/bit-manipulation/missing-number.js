@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/missing-number
 
-// [BEST SOLUTION] XOR approach - O(n) time O(1) space
+// XOR solution - [O(n) time, O(1) space] 
 function missingNumber(nums) {
     let missing = nums.length;
     for (let i = 0; i < nums.length; i++) {
@@ -9,7 +9,7 @@ function missingNumber(nums) {
     return missing;
 }
 
-// [BEST SOLUTION] Sum approach - O(n) time O(1) space
+// Sum solution - [O(n) time O(1) space]
 function missingNumber(nums) {
     let res = nums.length;
     for (let i = 0; i < nums.length; i++) {
@@ -18,6 +18,8 @@ function missingNumber(nums) {
     return res;
 }
 
-// Hashing - also solvable with hashing, but it takes O(n) space.
+// Less efficient solutions:
+// Hashing - [O(n) time O(n) space]
+// Brute force - [O(n^2) time O(1) space]
 
 module.exports = missingNumber;
