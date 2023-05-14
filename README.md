@@ -4,3 +4,4 @@ A collection of interview problems from the most common patterns asked during te
 Inspired by:
 - https://seanprashad.com/leetcode-patterns/
 - https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
+- https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0
